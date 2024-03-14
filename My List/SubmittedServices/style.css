@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff; /* Adjust the background color as needed */
+    z-index: 1000;
+  }
+  
+  header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .navbar .logo {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2.1rem;
+    text-decoration: none;
+  }
+  
+  .navbar .logo span {
+    color: #3ec04d;
+  }
+  
+  .navbar .menu-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+  }
+  
+  .navbar a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.2s ease;
+  }
+  
+  .navbar a:hover {
+    color: #35c245;
+  }
+  
+  .hero-section {
+    padding: 80px 20px; /* Adjust the padding as needed */
+    text-align: center;
+  }
+  
+  .list-header {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .list-header h2 {
+    font-size: 2rem;
+    color: #000000; /* Adjust the color as needed */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+  }
+  
+  .list-button {
+    background-color: #259a32;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  
+  .list-button.active {
+    background-color: #000000; /* Adjust the color for the active button */
+  }
+  /* Add these styles at the end of your existing style.css file */
+
+.list-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 70px;
+  }
+  
+  .list-button {
+    padding: 10px 20px;
+    background-color: #259a32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-button:hover {
+    background-color: #000;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #259a32;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    margin-bottom: 15px;
+    color: #777;
+    font-size: 1.2em;
+  }
+  
+  .card-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .card-button {
+    padding: 8px 16px;
+    background-color: #259a32;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #000;
+  }
+  
+  .card-rate {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-rate img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .card-rate span {
+    color: #259a32;
+    font-size: 1.2em;
+  }
+  
